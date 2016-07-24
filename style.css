@@ -1,0 +1,337 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+-----------------------------------------------
+Site: zpropertiescorp.com
+Author: Brian Miller with 9laps.com
+Description: Style for zpropertiescorp.com
+----------------------------------------------- */
+
+
+/* -----------------------------------*/
+/* ------> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #38383a;
+	font:normal 14px Tahoma, Arial, Verdana, sans-serif;
+	width: 100%;
+	}
+
+a {
+	color: #38383a;
+	text-decoration: underline;
+	}
+
+a:hover {
+	color:000;
+	text-decoration:none;
+	}
+
+p {
+	color:#38383a;
+	margin:0 0 10px 0;
+	}
+
+h1 {
+	color:#9d0101;
+	font:normal 48px Bodoni SvtyTwo OS ITC TT, Georgia, "Times New Roman", Times, serif;
+	}
+	
+h2 {
+	color:#38383a;
+	font:normal 24px Tahoma, Arial, Verdana, sans-serif;
+	margin:0 0 0 0;
+	}
+#center{
+	text-align:center;
+	margin:20px 0 20px 0
+	}
+
+/* -----------------------------------*/
+/* ------> STRUCTURE <<<--------*/
+/* -----------------------------------*/
+
+#headwrapper {
+	height:170px;
+	width:100%;
+	background:#fff url(images/grey-bar.jpg) bottom left repeat-x;
+}
+
+#footerwrapper {
+	height:80px;
+	width:100%;
+	padding: 17px 0 0 0;
+	margin:80px 0 0 0;
+	background:#fff url(images/grey-bar.jpg) top left repeat-x;
+}
+
+#wrapper {
+	background: #fff url(images/grey-bar-middle.gif) repeat-x 200px 213px scroll;
+}
+
+#pagebody { 
+	display:block; 
+	position:relative; 
+	width:999px; 
+	height:100%;
+	margin:0 auto;
+	background:url(images/glow.png) no-repeat 30px 213px scroll;
+}
+
+#glow {
+	position:absolute;
+	top:213px;
+	left:0px;
+	}
+
+#content1 {
+	width: 999px;
+	margin: 0 auto;
+}
+
+/* -----------------------------------*/
+/* ------> HEADER <<<-----------*/
+/* -----------------------------------*/
+#header {
+	width:1250px;
+	margin:0 auto 0 auto;
+	position:relative;
+}
+
+#logo {
+	float:left;
+	margin:10px 0 0 30px;
+}
+#logo h1 {
+	text-indent:-2000em;
+	height:0;
+	display:none;
+}
+
+/* -----------------------------------*/
+/* ------> FOOTER <<<-----------*/
+/* -----------------------------------*/
+
+#footer {
+	width:1000px;
+	margin:0 auto 0 auto;
+	position:relative;
+}
+.footertxt{
+	text-align:center;
+	margin:20px 0 0 0;
+	}
+	
+/* -----------------------------------*/
+/* --> NAVIGATION <<<-----------*/
+/* -----------------------------------*/
+#nav {
+	float:left;
+	padding-top:115px;
+	padding-left:98px;
+}
+
+	#navlist li {
+		display: inline;
+		list-style: none;
+		padding-left: 28px;
+	}
+
+		#navlist li a,#navlist li a:visited {
+			font:normal 18px tahoma, Arial, Verdana, sans-serif;
+			text-decoration:none;
+			letter-spacing:0px;
+			color:#38383a;
+		}
+		
+		#navlist a:hover {color:#000}
+
+
+/* -----------------------------------*/
+/* --> CONTENT 1 <<<------------*/
+/* -----------------------------------*/
+#house{
+	position:absolute;
+	top:60px;
+	right:0px;
+}
+
+#available-properties-btn{
+	position:absolute;
+	top:243px;
+	left:0px;
+}
+
+#tagline {
+	width:615px;
+	margin:5px 0 10px 10px;
+}
+
+#intro-paragraph{
+	width: 435px;
+	height:320px;
+	margin: 0 0 0 15px;
+	}
+	
+
+/* -----------------------------------*/
+/* --> CONTENT 2 <<<------------*/
+/* -----------------------------------*/
+
+#services-icon{
+	position:absolute;
+	top:195px;
+	left:115px;
+}
+
+#left-col{
+	margin:20px 0 0 60px;
+	height:170;
+	width:400px;
+	float:left;
+	}
+	
+#right-col{
+	margin:20px 60px 0 70px;
+	height:500;
+	float:right;
+	}
+
+.services{
+	width:400px
+	}
+
+.services-details{
+	border-top:1px solid #9d0101;
+	padding:5px;
+	margin:0 0 20px 0;
+	}
+
+
+/* -----------------------------------*/
+/* --> CONTENT 3 <<<------------*/
+/* -----------------------------------*/
+
+#interact-icon{
+	position:absolute;
+	top:180px;
+	left:140px;
+	}
+#invest-icon{
+	position:absolute;
+	top:110px;
+	left:180px;
+
+}
+
+.services-details ul{
+	color: #38383a;;
+	}
+
+.services-details li{
+	list-style:square;
+	padding-left: 5px;
+	margin:0 0 0 20px;
+	}
+
+
+/* -----------------------------------*/
+/* --> CONTENT 4 <<<------------*/
+/* -----------------------------------*/
+.properties{
+	width: 960px;
+	margin:30px 15px 20px 15px;
+	border-bottom:1px solid #9d0101;
+	padding:0 0 10px 0;
+	}
+
+.properties-pics{
+	width: 495px;
+	float:left;
+	}
+
+.property-large{
+	float:left;
+	}
+.property-thumb{
+	float::left;
+	margin:0 0 16px 10px;
+	}
+
+.properties-details{
+	width:400px;
+	float:right;
+	margin:0 20px 0 0;
+	}
+
+.clear{
+	clear:both;
+	}
+
+.bold{
+	font-weight:bold;
+	}
+
+/* -----------------------------------*/
+/* --> CONTENT 5 <<<------------*/
+/* -----------------------------------*/
+
+#options{
+	width: 960px;
+	margin:20px 70px 20px 70px;
+	padding:0 0 10px 0;
+	}
+
+#option1 {
+	width:245px;
+	height:385px;
+	padding:20px;
+	border-right:solid 1px #333;
+	float:left;
+	text-align:left;
+}
+#option2 {
+	width:245px;
+	height:385px;
+	padding:20px;
+	border-right:solid 1px #333;
+	float:left;
+	text-align:left;
+}
+#option3 {
+	width:245px;
+	height:172px;
+	padding:20px;
+	float:left;
+	text-align:left;
+}
+#content3 h1 {
+	text-align:center;
+}
+form.paynow {
+	margin:50px 0 0 40px;
+}
+/* -----------------------------------*/
+/* --> CONTENT 6 <<<------------*/
+/* -----------------------------------*/
+
+#intro{
+	width:350px;
+	padding: 20px 0 0 20px;
+	}
+
+#contact-icon{
+	position:absolute;
+	top:200px;
+	left:205px;
+}
+
+#form{
+	margin:0 50px 0 0;
+	}
